@@ -1,7 +1,7 @@
 import React from 'react'
 
-const App = () => {
-  const greeting = 'Hola universo'
+const App = ({greeting}) => {
+  // const greeting = 'Hola universo'
   return (
     <>
       <h1>{greeting}</h1>
