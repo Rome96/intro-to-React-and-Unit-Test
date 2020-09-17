@@ -1,6 +1,5 @@
 describe('Testing in archive demo.test.js', () => {
   test("strings equeal", () => {
-  
     // 1. Inicialización
     const message1 = 'Hello World';
   
