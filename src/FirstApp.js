@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const App = ({greeting, subTitle}) => {
+const FirstApp = ({greeting, subTitle}) => {
   // const greeting = 'Hola universo'
   return (
     <>
@@ -11,12 +11,12 @@ const App = ({greeting, subTitle}) => {
   )
 }
 
-App.propTypes = {
+FirstApp.propTypes = {
   greeting: PropTypes.string.isRequired
 }
 
-App.defaultProps = {
+FirstApp.defaultProps = {
   subTitle: 'Lorem ipsum dolor repudiandae debitis molestiae illo nobis dolorum esse Voluptate'
 }
 
-export default App
+export default FirstApp
