@@ -15,7 +15,7 @@ const CounterApp = ({value}) => {
   const handleReset = () => {
     setIncrement(value);
   }
-
+  
   return (
     <>
       <h1>Counter App</h1>
@@ -32,7 +32,7 @@ CounterApp.propTypes = {
 }
 
 CounterApp.defaultProps = {
-  value = 10
+  value: 10
 };
 
 export default CounterApp
